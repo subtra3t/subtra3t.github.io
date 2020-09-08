@@ -3,6 +3,7 @@
 <html>
   <head>
     <style>
+      /*I am not sure GitHub Pages allow external StyleSheets, so I used embedded CSS just to be on the safe side*/
       @import url('https://fonts.googleapis.com/css2?family=Grandstander&display=swap');
       body {
         background: linear-gradient(245deg, #aa0aff, #000099);
@@ -10,9 +11,22 @@
         color: #ff10a0;
         text-align: center;
       }
+      body:selection {
+        color: yellow;
+        border-radius: 4px;
+        border: solid black 1px;
+        background-color: black;
+      }
       nav {
         text-align: left;
         color: #f0faa0;
+      }
+      a {
+        color: cyan;
+        text-decoration: normal;
+      }
+      a:hover {
+        text-decoration: italic;
       }
     </style>
     <title>Home - subtra3t</title>
@@ -22,19 +36,22 @@
       <h1>Homepage</h1>
     </header>
     <nav>
+      <br>
+      <br>
       <h3>Navigation</h3>
       <ul>
         <li><a href=#About_Me>About Me</a></li>
       </ul>
+      <br>
+      <br>
     </nav>
-     <br>
-     <br>
     <main>
       <section id="About_Me">
         <h2>About me</h2>
         <hr>
         <p>I am a relatively young aspiring web dev. I have learnt many languages (most of them front-end), and I hope to utilize them someday for a good cause.
-          I grew up in India, where coding was not really <i>encouraged</i>, but rather scoffed upon. So you can imagine that my view of coding was rather biased and one-sided.</p>
+          I grew up in India, where coding was not really <i>encouraged</i>, but rather scoffed upon. So you can imagine that my view of coding was rather biased and one-sided.
+          <br>But that was before <a href="https://scratch.mit.edu/">Scratch</a></p>
       </section>
     </main>
   </body>
