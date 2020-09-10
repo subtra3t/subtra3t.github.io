@@ -26,16 +26,24 @@
         color: #f0faa0;
         position: fixed;
       }
-      a:link {
+      a:link{
         color: blue;
         text-decoration: none;
       }
-      a:hover {
+      a:hover{
         text-decoration: italic;
         color: blue;
+        animation-name: link;
+        animation-duration:1.5s;
       }
       li {
         text-align: left;
+      }
+      @keyframes link{
+        100%{
+          text-decoration: none;
+        }
+      }
     </style>
     <title>Home - subtra3t</title>
   </head>
