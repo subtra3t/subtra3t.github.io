@@ -23,26 +23,30 @@
       }
       nav {
         text-align: center;
-        color: #f0faa0;
         position: fixed;
+        display: grid;
+        grid-template-columns: repeating(auto-fit, 20px);
+      }
+      div {
+        background-color: #aa0aff;
+        color: #f0faa0;
+      }
+      div:hover {
+        background-color: #000099;
+        color: black;
       }
       a:link{
         color: blue;
         text-decoration: none;
       }
       a:hover{
-        text-decoration: italic;
+        text-decoration: italic !important;
         color: blue;
         animation-name: link;
-        animation-duration:1.5s;
+        animation-duration: 1.5s;
       }
       li {
         text-align: left;
-      }
-      @keyframes link{
-        100%{
-          text-decoration: none;
-        }
       }
     </style>
     <title>Home - subtra3t</title>
@@ -52,17 +56,11 @@
       <h1>Homepage</h1>
     </header>
     <nav>
-      <p><a href="#About_Me">About me</a></p>
-    </nav>
+      <div><a href="#">About me</a></div>
+      <div><a href="#">Tutorials</a></div>
+      <div><a href="#projects">Projects</a></div>
     <main>
-      <section id="About_Me">
-        <h2>About me</h2>
-        <hr>
-        <p>I am a relatively young aspiring web dev. I have learnt many languages (most of them front-end), and I hope to utilize them someday for a good cause.
-          I grew up in India, where coding was not really <i>encouraged</i>, but rather scoffed upon. So you can imagine that my view of coding was rather biased and one-sided.
-          <br>But that was before <a href="https://scratch.mit.edu/" target="_blank">Scratch</a></p>
-      </section>
-      <section>
+      <section id="projects">
         <h2>My Projects</h2>
         <hr>
         <p>I <i>create</i> mainly from <a href="https://www.sololearn.com" target="_blank">SoloLearn</a>, partly, because it is free, and an <b>absolutely</b> helpful community.
