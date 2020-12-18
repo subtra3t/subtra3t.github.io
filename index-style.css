@@ -13,3 +13,8 @@ body {
    font-size: 18px;
    font-family: "Roboto Slab", sans-serif;
 }
+
+hr {
+   border: 4px #352873 solid;
+   border-radius: 2px;
+}
