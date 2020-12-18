@@ -1,12 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
-
-
 h1 {
    text-align: center;
-   font-family: "Patua one", Verdana;
+   font-family: "Patua one", serif;
    font-size: 45px;
 }
+
 body {
-   font-size: 14px;
    background-color: rgb(128, 102, 255);
+   padding: 10px;
+}
+
+* {
+   font-size: 18px;
+   font-family: "Roboto Slab", sans-serif;
 }
