@@ -18,3 +18,8 @@ hr {
    border: 4px #352873 solid;
    border-radius: 2px;
 }
+
+footer {
+   bottom: 10px;
+   font-variant-caps: all-small-caps;
+}
