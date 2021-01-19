@@ -4,6 +4,10 @@ body {
    font-family: "Source Sans Pro", serif;
 }
 
+#first-updated, #second-updated {
+   opacity: 1;
+}
+
 #first {
    font-size: 50px;
    padding-top: 10px;
