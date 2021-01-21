@@ -8,5 +8,5 @@ window.addEventListener("load", () => {
   second.style.animationName = "fade-in";
   second.style.animationDuration = "1s";
   second.style.animationDelay = "1.5s";
-  second.style.animationIterationCount: "1";
+  second.style.animationIterationCount = "1";
 });
