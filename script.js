@@ -1,5 +1,5 @@
 window.addEventListener("load", () => {
-  const terminal = new TypeWriter(document.getElementById("type-term"), {loop: false});
+  const terminal = new Typewriter(document.getElementById("type-term"), {loop: false});
   setTimeout(() => {
     terminal.typeString("Hello World")
       .pausefor(500)
