@@ -2,3 +2,21 @@ body {
    background-color: #000012;
    padding: 55px;
 }
+
+#type-term {
+   color: #0f0;
+   padding-top: 25px;
+   padding-bottom: 225px;
+   padding-left: 10px;
+   padding-right: 10px;
+   background-color: #000;
+   border-radius: 30px;
+   margin: 10px;
+}
+
+#type-term::before {
+   content: "$";
+   margin: 10px;
+   margin-right: 20px;
+   color: #0f0;
+}
