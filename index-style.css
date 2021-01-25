@@ -4,6 +4,7 @@ body {
 }
 
 #type-term {
+   font-size: 34px;
    color: #0f0;
    padding-top: 25px;
    padding-bottom: 225px;
@@ -16,6 +17,7 @@ body {
 }
 
 #type-term::before {
+   font-size: 34px;
    content: "$";
    margin: 10px;
    margin-right: 20px;
