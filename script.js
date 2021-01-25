@@ -2,7 +2,7 @@ window.addEventListener("load", () => {
   const terminal = new Typewriter(document.getElementById("type-term"), {loop: false});
   setTimeout(() => {
     terminal.typeString("Hello World")
-      .pausefor(500)
+      .pauseFor(500)
       .deleteChars(6)
       .typeString(". My name is <strong>Devansh Patil</strong>")
       .pauseFor(1250)
