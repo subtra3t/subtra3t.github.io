@@ -1,36 +1,4 @@
 body {
-   background-color: #0a001f;
-   color: #c8cbfa;
-   font-family: "Source Sans Pro", serif;
-}
-
-#first-updated, #second-updated {
-   opacity: 1;
-}
-
-#first {
-   font-size: 50px;
-   padding-top: 10px;
-   margin-bottom: 15px;
-   opacity: 0;
-}
-
-@keyframes fade-in {
-   0% {
-      opacity: 0;
-   }
-   50% {
-      opacity: 0.25;
-   }
-   75% {
-      opacity: 0.55;
-   }
-   100% {
-      opacity: 1;
-   }
-}
-
-#second {
-   font-size: 48px;
-   opacity: 0;
+   background-color: #000012;
+   padding: 55px;
 }
