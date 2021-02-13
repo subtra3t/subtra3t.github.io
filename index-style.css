@@ -1,11 +1,12 @@
 body {
    background-color: #000012;
    padding: 55px;
+   color: #0f0;
+   font-family: "IBM Plex Mono", "Courier prime", monospace;
 }
 
 #type-term {
    font-size: 34px;
-   color: #0f0;
    padding-top: 25px;
    padding-bottom: 225px;
    padding-left: 10px;
@@ -13,7 +14,6 @@ body {
    background-color: #000;
    border-radius: 30px;
    margin: 10px;
-   font-family: "IBM Plex Mono", "Courier prime", monospace;
 }
 
 #type-term::before {
@@ -21,6 +21,4 @@ body {
    content: "$";
    margin: 10px;
    margin-right: 20px;
-   color: #0f0;
-   font-family: "IBM Plex Mono", "Courier prime", monospace;
 }
