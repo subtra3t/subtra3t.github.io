@@ -35,3 +35,7 @@ h3 {
 section {
    margin-bottom: 110px;
 }
+
+hr {
+   border: solid;
+}
