@@ -16,6 +16,11 @@ body {
    margin: 10px;
 }
 
+*::selection {
+   background-color: #0f0;
+   color: #000;
+}
+
 #type-term::before {
    font-size: 30px;
    content: "$";
