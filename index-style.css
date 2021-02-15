@@ -6,6 +6,7 @@ body {
 }
 
 #type-term {
+   height: 5vh;
    font-size: 30px;
    padding-top: 25px;
    padding-bottom: 225px;
