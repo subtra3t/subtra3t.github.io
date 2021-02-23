@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Trail</title>
+    <meta charSet="utf-8">
+    <meta name="description" content="A soothing trail of circles">
+    <meta name="author" content="Devansh Patil">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.2.0/p5.min.js" defer integrity="sha512-b/htz6gIyFi3dwSoZ0Uv3cuv3Ony7EeKkacgrcVg8CMzu90n777qveu0PBcbZUA7TzyENGtU+qZRuFAkfqgyoQ==" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <script>
+      let trail = [];
+      let bg;
+
+      function setup() {
+        createCanvas(600, 600);
+        noStroke();
+        fill(255);
+
+        bg = {
+          red: random(0, 255),
+          green: random(0, 255),
+          blue: random(0, 255)
+        };
+      }
+
+      function draw() {
+        fill(random(0, 10), random(0, 10), random(0, 50))
+
+        background(bg.red, bg.green, bg.blue);
+
+        trail.push(new p5.Vector(mouseX, mouseY));
+
+
+        if (trail.length > 10) {
+          trail.shift();
+        }
+
+        // Draw the trail
+        for (let i = 0; i < trail.length; i++) {
+          let p = trail[i];
+
+
+          let size = (10 * (i + 1)) / trail.length;
+
+          circle(p.x, p.y, size);
+        }
+
+        bg.red = (bg.red + random(1, 5)) % 255;
+        bg.green = (bg.green + random(1, 5)) % 255;
+        bg.blue = (bg.blue + random(1, 5)) % 255;
+
+      }
+    </script>
+  </body>
+</html>
